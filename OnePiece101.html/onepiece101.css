@@ -1,0 +1,435 @@
+html {
+  background: url(one\ piece\ map.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background-size: 100% 100%;
+}
+body {
+  padding-top: 50px;
+}
+.navigation-bar {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: rgb(255,255,255);
+  align-items: center;
+}
+.OnePiece101-header-logo {
+  font-family: Passion One;
+  font-size: 25px;
+  margin-left: 5px;
+}
+.clickable-logo {
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.clickable-logo:hover {
+  opacity: 0.65;
+}
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.navigation-buttons button {
+  background-color: rgb(239, 226, 183, 0.80);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  height: 40px;
+  font-family: Passion One;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.navigation-buttons button:hover {
+  background-color: rgb(215, 206, 178);
+}
+.OnePiece101-header-logo {
+  flex: 1
+}
+.Log-In {
+  margin-right: 5px;
+}
+.Hamburger-menu {
+  width: 65px;
+  margin: 10px;
+  display: none;
+}
+#menu-line-1, #menu-line-2, #menu-line-3 {
+  width: 100%;
+  height: 6px;
+  background-color: #333; 
+}
+#menu-line-2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.Learn {
+  position: relative;
+}
+.Learn-options {
+  background-color: rgb(231, 225, 225);
+  opacity: 0;
+  width: 160px;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  bottom: -108px;
+  right: -60px;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.Learn:hover .Learn-options {
+  opacity: 1;
+}
+.Learn-options .option-1, .option-2, .option-3, .option-4 {
+  font-family: mitr;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Community {
+  position: relative;
+}
+.Community-options {
+  background-color: rgb(231, 225, 225);
+  opacity: 0;
+  width: 150px;
+  border-radius: 6px;
+  padding: 6px;
+  position: absolute;
+  bottom: -61px;
+  right: -22px;
+  display: flex;
+  flex-direction: column;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.Community:hover .Community-options {
+  opacity: 1;
+}
+.Community-options .option-1, .option-2 {
+  font-family: mitr;
+  font-size: 14px;
+  font-weight: 500;
+}
+.web-content {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: flex;
+  flex-direction: column;
+}
+.hero-section {
+  display: flex;
+  background-color: rgb(181, 148, 148, 0.65);
+}
+.hero-section-info {
+  display: flex;
+  flex-direction: column;
+}
+.hero-section-tagline {
+  display: flex;
+  flex-direction: column;
+  font-family: Pirata One;
+  font-size: 75px; 
+  color:rgb(255, 255, 255);
+  -webkit-text-stroke-color: rgb(70, 47, 9);
+  -webkit-text-stroke-width: 0.015px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.tagline-2ndparagraph {
+  padding-left: 80px;
+}
+.hero-section-logo {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.strawhats-logo {
+  height: 250px;
+  width: 400px;
+}
+.hero-section-1stparagraph,.hero-section-2ndparagraph {
+  font-family: Hepta Slab;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.About-One-Piece-header, .Why-One-Piece-header, .Manga-Anime-Sites-header,
+.Content-header, .Featured-Fan-Article-header
+{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+  font-family: Hepta Slab;
+  font-size: 20px;
+}
+.About-One-Piece, .Why-One-Piece {
+  text-align: center;
+}
+.About-One-Piece-description, .Why-One-Piece-description, .Manga-Anime-Sites-info {
+  font-family: mitr;
+  font-size: 14px;
+}
+.About-One-Piece, .Why-One-Piece {
+  height: fit-content;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: rgb(239, 226, 183, 0.80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Manga-Anime-Sites {
+  background-color: rgb(239, 226, 183, 0.80);
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Manga-Anime-Sites-description {
+  padding-bottom: 6px;
+}
+.Anime-Sites, .Manga-Sites {
+  font-weight: 500;
+}
+.site-link {
+  text-decoration-line: underline;
+  color: blue;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.site-link:hover {
+  color: red;
+}
+.see-more-button {
+  height: 18px;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: mitr;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1px;
+  margin-bottom: 3px;
+  background-color: rgb(223, 210, 210);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.see-more-button:hover {
+  background-color: rgb(202, 46, 46, 0.55);
+}
+.Content-Article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.Content {
+  background-color: rgb(239, 226, 183, 0.80);
+  margin-top: 10px;
+  padding-left: 5px;
+}
+.content-list {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-family: mitr;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style-position: inside;
+  padding-left: 0
+}
+.Featured-Fan-Article {
+  background-color: rgb(239, 226, 183, 0.80);
+  margin-top: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Fan-Article-content {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+}
+.article-picture {
+  width: 90px;
+}
+.article-picture-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.article-title, .article-author-byline, 
+.article-paragraph1, .article-paragraph2 {
+  font-family: mitr;
+}
+.article-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+.article-paragraph1, .article-paragraph2 {
+  font-size: 12px;
+}
+.article-author, .article-publishing-date {
+  font-size: 10px;
+  font-weight: 300;
+}
+.full-story-button {
+  height: 18px;
+  border-radius: 9px;
+  border-style: solid;
+  border-width: 1px;
+  font-family: mitr;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1px;
+  margin-bottom: 3px;
+  background-color: rgb(223, 210, 210);
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+.full-story-button:hover {
+  background-color: rgb(202, 46, 46, 0.55);
+}
+footer {
+  width: auto;
+  background-color: rgb(239, 226, 183, 0.80);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
+.OnePiece101-footer-logo {
+  font-family: Passion One;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+.footer-tagline {
+  font-family: Racing Sans One;
+  color: rgb(77, 45, 6);
+  text-align: center;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-icons img {
+  height: 28px;
+}
+.instagram-icon {
+  margin-left: 5px;
+}
+@media (max-width:985px) {
+  .hero-section {
+    flex-direction:column-reverse;
+  }
+  .hero-section-logo {
+    justify-content: center;
+  }
+  .hero-section-tagline {
+    text-align: center;
+  }
+  .tagline-2ndparagraph {
+    padding-left: 0;
+  }
+  .hero-section-p-container {
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .navigation-buttons {
+    display: none;
+  }
+  .Hamburger-menu {
+    display: block;
+  }
+}
+@media (max-width:576px) {
+  .hero-section-tagline {
+    font-size: 65px;
+  }
+  .hero-section-tagline {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .strawhats-logo {
+    width: 300px;
+    height: 200px;
+  }
+  .hero-section-1stparagraph, .hero-section-2ndparagraph {
+    font-size: 13.50px;
+  }
+  .About-One-Piece-header, .Why-One-Piece-header, .Manga-Anime-Sites-header,
+  .Content-header, .Featured-Fan-Article-header {
+    font-size: 18px;
+  }
+  .About-One-Piece-description, .Why-One-Piece-description, .Manga-Anime-Sites-info, .article-title, .content-list {
+    font-size: 13px;
+  }
+  .article-paragraph1, .article-paragraph2 {
+    font-size: 11px;;
+  }
+  .Fan-Article-content {
+    grid-template-columns: 80px 1fr;
+  }
+  .article-picture {
+    width: 80px;
+  }
+  .full-story-button {
+    font-size: 10px;
+    height: 16px;
+  }
+  .see-more-button {
+    font-size: 11px;
+  }
+  .OnePiece101-footer-logo {
+    font-size: 20px;
+  }
+  .footer-tagline {
+    font-size: 14px;
+  }
+  .social-media-icons img {
+    height: 20px;
+  }
+}
+@media (max-width:730px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
+@media (max-width:891px) {
+  .Content-Article {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width:408px) {
+  .content-list {
+    grid-template-columns: 1fr;
+  }
+}
