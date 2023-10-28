@@ -1,4 +1,4 @@
-# FS1000 Final Project: One Piece Fan Website
+# FS1000 Final Project: OnePiece101.com
 
 # About the Website
 ONEPIECE101.COM is created with the goal of establishing an all-inclusive platform for One Piece fans and potential newcomers. We aim to create a welcoming environment where seasoned fans and those contemplating watching One Piece can come together. Our hope is that newcomers will find our community friendly and, through engaging discussions and resources, be inspired to embark on the adventure of watching One Piece.
