@@ -8,4 +8,4 @@ https://www.figma.com/file/QBJZ2jfM2S1LAE5pRdOaZI/OnePiece101.com?type=design&no
 ## Admin 
 As an admin, I want to select and feature fan theories from the forum on the landing page, allowing fans to view, comment and provide feedback and be able to moderate comments so that I can maintain a positive community experience.
 ## Main User
-As a user, I want to discover why One Piece is the world's leading manga, connect with their fan base, and receive recommendations on essential arcs or clips to get convinced to start the 20 + long-running series.
+As a user, I want to discover why One Piece is the world's leading manga and a globally acclaimed anime, connect with their fan base, and to receive recommendations and fascinating episodes/chapters, providing the motivation I need to start this 20-year-long series
